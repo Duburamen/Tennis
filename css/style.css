@@ -248,3 +248,111 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+/* -----COURTS-------- */
+
+.page__courts {
+  padding-top: 150px;
+}
+
+.courts {
+}
+
+.courts__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.courts__item {
+  position: relative;
+}
+
+.court__image {
+  padding: 25px 20px;
+  border: 1px solid #F7ECE1;
+}
+
+.courts__title {
+  position: absolute;
+  z-index: 3 ;
+  display: inline-block;
+  bottom: 65px;
+  right: 0;
+  left: 0;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 140%;
+  text-align: center;
+}
+
+/* ---------ABOUT @template@---------- */
+
+.page__about {
+  padding-top: 150px;
+}
+
+.about-main {
+}
+
+.about__content {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.about__image {
+  position: absolute;
+  left: 110px;
+}
+
+.about__description {
+  margin-right: 110px;
+  padding: 70px 60px 84px 146px;
+  background-color: #F7ECE1;
+  color: #333333;
+}
+
+.description__content {
+  max-width: 430px;
+}
+
+.description__title {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 140%;
+}
+
+.description__text {
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.description__subtitle {
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 140%;
+}
+
+.description__highlights {
+}
+
+.description__list {
+}
+
+.description__item {
+  margin-left: 15px;
+  padding-left: 15px;
+  list-style: url(../img/about/list-style.svg);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.description__item:not(:last-child) {
+  margin-bottom: 20px;
+}
