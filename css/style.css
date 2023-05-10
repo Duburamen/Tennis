@@ -63,7 +63,7 @@ body {
   line-height: 1;
   background: #ffffff;
   font-size: 14px;
-  color: #ffffff;
+  color: #333333;
   font-weight: 500;
   font-family: Gilroy;
   scroll-behavior: smooth;
@@ -107,6 +107,7 @@ body {
   width: 100%;
   z-index: 5;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  color: #FFFFFF;
 }
 
 .header__body {
@@ -163,6 +164,7 @@ body {
 
 .main-block {
   position: relative;
+  color: #FFFFFF;
 }
 
 .main-block__content {
@@ -229,7 +231,7 @@ body {
 
 .links__link {
   margin-right: 35px;
-  color: #ffffff;
+  color: inherit;
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
@@ -253,6 +255,7 @@ body {
 
 .page__courts {
   padding-top: 150px;
+  color: #FFFFFF;
 }
 
 .courts {
@@ -355,4 +358,100 @@ body {
 
 .description__item:not(:last-child) {
   margin-bottom: 20px;
+}
+
+/* -----COACHES------- */
+
+.page__coaches {
+  padding-top: 150px;
+}
+
+.coaches {
+}
+
+.coaches__container {
+}
+
+.coaches__content {
+}
+
+.coaches__header {
+  margin-bottom: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coaches__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 140%;
+  color: #333333;
+}
+
+.coaches__arrows {
+  display: flex;
+  gap: 15px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  margin-top: 0 !important;
+  position: static !important;
+  width: 45px !important;
+  height: 45px !important;
+  background: #8D86C9;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.swiper-button-prev {
+  background-image: url(../img/coaches/arrow-left.svg);
+}
+
+.swiper-button-next {
+  background-image: url(../img/coaches/arrow-right.svg);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: "" !important;
+}
+
+.coaches__cards {
+  display: flex;
+}
+
+.coaches__card {
+  flex: 0 1 16,667%;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coaches__img {
+  
+}
+
+.coaches__img img {
+  margin-bottom: 25px;
+  text-align: center;
+  padding: 0px 15px;
+  border: 1px solid #F7ECE1;
+}
+
+.coaches__name {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 140%;
+  text-align: center;
+}
+
+.coaches__about {
+  width: 90%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
 }
