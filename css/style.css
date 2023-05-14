@@ -164,15 +164,13 @@ body {
   margin-right: 20px;
 }
 
-/* ------------PAGE-------------------- */
+/* ------------MAIN-BLOCK----------------- */
 
 .page {
 }
 
 .page__main-block {
 }
-
-/* ------------MAIN-BLOCK----------------- */
 
 .main-block {
   position: relative;
@@ -409,11 +407,11 @@ body {
 }
 
 .swiper-button-prev {
-  background-image: url(../img/coaches/arrow-left.svg);
+  background-image: url(../img/index/coaches/arrow-left.svg);
 }
 
 .swiper-button-next {
-  background-image: url(../img/coaches/arrow-right.svg);
+  background-image: url(../img/index/coaches/arrow-right.svg);
 }
 
 .swiper-button-prev::after,
