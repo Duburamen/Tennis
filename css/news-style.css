@@ -129,6 +129,12 @@ body {
   text-decoration: underline;
 }
 
+._button {
+  padding: 10px 20px;
+  background: #8d86c9;
+  text-align: center;
+}
+
 /* ----------HEADER-------------------- */
 
 .header {
@@ -256,10 +262,7 @@ body {
   position: absolute;
   left: 40px;
   bottom: 30px;
-  padding: 10px 20px;
   width: 30%;
-  background: #8d86c9;
-  text-align: center;
 }
 
 .news__link {
